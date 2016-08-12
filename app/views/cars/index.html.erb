@@ -1,0 +1,14 @@
+<h1>Towed Cars</h1>
+
+<% @towed_cars.each do |car| %>
+<h2><%= car["color"] %></h2>
+<h2><%= car["inventory_number"] %></h2>
+<h2><%= car["make"] %></h2>
+<h2><%= car["plate"] %></h2>
+<h2><%= car["state"] %></h2>
+<h2><%= car["style"] %></h2>
+<h2><%= car["tow_date"] %></h2>
+<h2><%= car["tow_facility_phone"] %></h2>
+<h2><%= car["towed_to_address"] %></h2>
+<br>
+<% end %>
